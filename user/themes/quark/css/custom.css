@@ -1,0 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@500&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Times New Roman', 'Noto Serif KR', serif;
+ }
+
+body {
+    font-family: 'Times New Roman', 'Noto Serif KR', serif;
+ }
