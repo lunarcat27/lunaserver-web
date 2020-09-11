@@ -18,17 +18,17 @@ body_classes: title-center title-h1h2
 
 &nbsp;&nbsp;기존의 루나서버는 외부업체의 호스팅 서비스를 사용하였으나, 재오픈한 현재는 어드민의 개인 PC 상에서 운영되고 있습니다. 이로 인해 운영 시간이 유동적입니다.
 
-&nbsp;&nbsp;본 서버는 Kamansky가 [MoonServer](http://mcmoonserver.com)의 대체재로써 구축 및 관리해 왔으나 2017년 운영이 중단되었고, 2020년 9월 다시 오픈하며 MoonSeunggi에게 모두 이양했습니다. 루나서버의 구성 요소와 본 웹사이트의 문서 일부분은 Kamansky가 작성해 둔 것임을 밝힙니다.
+&nbsp;&nbsp;본 서버는 Kamansky가 [MoonServer](http://mcmoonserver.com)의 대체재로써 구축 및 관리해 왔으나 2017년 운영을 중단하였고, 2020년 9월 다시 오픈하며 MoonSeunggi에게 모두 이양했습니다. 루나서버의 구성 요소와 본 웹사이트의 문서 일부분은 Kamansky가 작성해 둔 것임을 밝힙니다.
 
 
 
 ## **Server Info**
 
-- 마인크래프트 버전: 1.9.4 (1.12.2로 업데이트 예정)
+- 마인크래프트 버전: 1.12.2
 - 최대 동시접속 인원: 10명
 - 게임 난이도: 어려움
 - 복제품 유저(복돌) 출입 가능, 정품 스킨 정상작동
-- 서버 구동기: spigot-1.9.4
+- 서버 구동기: spigot-1.12.2
 - 관리자: MoonSeunggi, Kamansky
 
 ## **Rules**
@@ -101,9 +101,9 @@ body_classes: title-center title-h1h2
 ## **User Commands & Plugins**
 <p style="text-align:center;">루나서버에서 사용하는 커맨드 및 부가기능의 목록입니다.</p>
 
-! 일부 플러그인은 현재 제대로 작동하지 않거나 사용 중지된 상태입니다.
+! 서버 버전을 1.12.2로 업데이트함에 따라 일부 플러그인이 오작동할 수 있습니다.
 
-#### LockettePro (Lockette로 대체됨)
+#### LockettePro
 &nbsp;&nbsp;표지판을 들고 상자나 화로, 문, 다이아 블록 등을 오른쪽 클릭하면 블록이 보호되어 남들이 부수거나 사용할 수 없게 됩니다. 컨테이너(아이템 보관) 기능이 있는 블록 대부분을 보호할 수 있습니다.<br><br>
 ![scs1](/assets/scs1.png)
 
@@ -146,6 +146,8 @@ body_classes: title-center title-h1h2
 #### CoreProtect
 &nbsp;&nbsp;CoreProtect는 월드 내 블록의 상태, 플레이어들의 상호작용 등을 데이터베이스에 기록하여, 유사시에 테러리스트를 색출하는 작업 등에 사용할 자료를 생성합니다.
 
-#### 로그인 플러그인 (현재 사용하지 않음)
-&nbsp;&nbsp;게임 접속 시에, 미리 설정해 둔 비밀번호를 입력해야 합니다. 복돌 런쳐로 다른 사람의 이름을 사칭하는 것을 방지합니다.
+#### LoginSecurity
+&nbsp;&nbsp;복돌 런쳐로 다른 사람의 이름을 사칭하는 것을 방지합니다. 게임 접속 시에, 미리 설정해 둔 비밀번호를 입력해야 합니다. 서버에 처음 접속하는 경우에는 회원가입을 해야 합니다. 
 
+- <code>/register *비밀번호*</code>: 서버에 처음 접속할 때 비밀번호를 설정합니다.
+- <code>/login *비밀번호*</code>: 게임 접속 시 로그인합니다.
