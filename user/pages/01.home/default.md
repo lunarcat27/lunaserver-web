@@ -65,7 +65,7 @@ body_classes: title-center title-h1h2
 
 ![sign1](/assets/sign1.png) ![sign2](/assets/sign2.png)
 
-&nbsp;&nbsp;완료되면, 표지판에서 제목 줄만 남고 나머지 내용이 사라지게 됩니다. 이것은 정상적인 현상이니 안심하세요.
+&nbsp;&nbsp;완료되면, 표지판에서 제목 줄만 남고 나머지 내용이 사라지게 됩니다. 이것은 정상적인 현상이니 안심하세요. 생성한 마커를 확인해보고 싶다면 [서버 웹 지도](luna.mcmoonserver.com:8123)에 접속하세요.
 표지판을 부수면 지도에서 마커가 다시 사라지게 됩니다.
 
 ![sign3](/assets/sign3.png)
@@ -94,9 +94,10 @@ body_classes: title-center title-h1h2
 
  명령어를 사용하면 머리에 뒤집어씁니다. 블록이 아닌 아이템은 머리 위에 얹히게 됩니다. 일부 아이템은 머리에 얹을 수 없습니다.
 
-#### 전리품
-&nbsp;&nbsp;몬스터나 플레이어를 잡으면 일정 확률로 머리를 드랍합니다. 당연히 쓰고 다닐 수 있습니다!   
-![head](/assets/adminhead.png) 예) 어드민의 머리
+ #### 창고 정리하기
+ &nbsp;&nbsp;아이템으로 꽉 창고를 정리하느라 힘드셨나요? 더 이상 일일히 수작업으로 아이템을 정렬할 필요가 없습니다. 창고를 연 다음, 창고 인벤토리 안의 아무 곳에나 대고 중간 클릭(휠 클릭)하면 자동으로 아이템이 정렬됩니다. 일반 창고뿐만 아니라 여러 가지 창고를 지원합니다!  <br><br>
+ ![sortgif1](/assets/chestsorting.gif) ![sortgif2](/assets/chestsorting2.gif)
+
 
 ## **User Commands & Plugins**
 <p style="text-align:center;">루나서버에서 사용하는 커맨드 및 부가기능의 목록입니다.</p>
@@ -105,7 +106,8 @@ body_classes: title-center title-h1h2
 
 #### LockettePro
 &nbsp;&nbsp;표지판을 들고 상자나 화로, 문, 다이아 블록 등을 오른쪽 클릭하면 블록이 보호되어 남들이 부수거나 사용할 수 없게 됩니다. 컨테이너(아이템 보관) 기능이 있는 블록 대부분을 보호할 수 있습니다.<br><br>
-![scs1](/assets/scs1.png)
+![scs1](/assets/scs1.png)  
+![lockgif1](/assets/lockette.gif)
 
 #### 지도
 &nbsp;&nbsp;사이트 우측 상단의 Dynamic Map 탭을 누르면 서버 지도로 접속합니다.
@@ -121,8 +123,8 @@ body_classes: title-center title-h1h2
 #### LoginSecurity
 &nbsp;&nbsp;복돌 런쳐로 다른 사람의 이름을 사칭하는 것을 방지합니다. 게임 접속 시에, 미리 설정해 둔 비밀번호를 입력해야 합니다. 서버에 처음 접속하는 경우에는 회원가입을 해야 합니다. 
 
-- <code>/register *비밀번호*</code>: 서버에 처음 접속할 때 비밀번호를 설정합니다.
-- <code>/login *비밀번호*</code>: 게임 접속 시 로그인합니다.
+- <code>/register <비밀번호></code>: 서버에 처음 접속할 때 비밀번호를 설정합니다.
+- <code>/login <비밀번호></code>: 게임 접속 시 로그인합니다.
 
 #### CoreProtect
 &nbsp;&nbsp;CoreProtect는 월드 내 블록의 상태, 플레이어들의 상호작용 등을 데이터베이스에 기록하여, 유사시에 테러리스트를 색출하는 작업 등에 사용할 자료를 생성합니다.
@@ -146,6 +148,13 @@ body_classes: title-center title-h1h2
 - <code>/hat</code>: 머리에 뒤집어쓸 블록을 오른손에 들고 명령어를 치면 무슨 블록이든 억지로 쑤셔넣을 수 있습니다.<br><br>
 ![scs2](/assets/scs2.png)
 
+#### 전리품
+&nbsp;&nbsp;몬스터나 플레이어를 잡으면 일정 확률로 머리를 드랍합니다. 당연히 쓰고 다닐 수 있습니다!   
+![head](/assets/adminhead.png) 예) 어드민의 머리
+
+#### 창고 정리
+&nbsp;&nbsp;창고 인벤토리 안의 아무 곳에나 대고 휠 클릭하면 창고 속의 아이템을 정렬합니다.
+
 #### 정돌 스킨 복원
 &nbsp;&nbsp;복돌 서버에서는 보이지 않는 정품 플레이어의 스킨을 플러그인을 통해 다시 입혀줍니다.
 
@@ -155,7 +164,8 @@ body_classes: title-center title-h1h2
 #### 메시지 띄우기
 &nbsp;&nbsp;약 1분에 한번씩 서버에 안내 메시지를 송출합니다. 서버 규칙, 명령어 안내부터 리눅스를 권유하는 내용까지 다양한 메시지가 있습니다.
 
-#### 서버 리소스 팩
+#### 서버 리소스 팩 (현재 사용하지 않음)
+! 1.12.2와의 호환성 문제로 인해 현재 리소스 팩은 사용하지 않습니다.  
 
 ![serverpack](/assets/serverpack.png)
 
