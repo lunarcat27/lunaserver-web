@@ -4,10 +4,6 @@ body_classes: title-center title-h1h2
 ---
 
 ## ![logo](/assets/logo.png)
-# Yeah, finally it's back.
-## Reopening After 3 Years of Silence<br><br>
-
----
 
 ## **WELCOME**<br>ДОБРО ПОЖАЛОВАТЬ!<br><br>
 
@@ -65,7 +61,7 @@ body_classes: title-center title-h1h2
 
 ![sign1](/assets/sign1.png) ![sign2](/assets/sign2.png)
 
-&nbsp;&nbsp;완료되면, 표지판에서 제목 줄만 남고 나머지 내용이 사라지게 됩니다. 이것은 정상적인 현상이니 안심하세요. 생성한 마커를 확인해보고 싶다면 [서버 웹 지도](luna.mcmoonserver.com:8123)에 접속하세요.
+&nbsp;&nbsp;완료되면, 표지판에서 제목 줄만 남고 나머지 내용이 사라지게 됩니다. 이것은 정상적인 현상이니 안심하세요. 생성한 마커를 확인해보고 싶다면 [여기](luna.mcmoonserver.com:8123)를 클릭하거나 사이트 우측 상단의 Dynamic Map으로 접속하세요.
 표지판을 부수면 지도에서 마커가 다시 사라지게 됩니다.
 
 ![sign3](/assets/sign3.png)
@@ -95,7 +91,7 @@ body_classes: title-center title-h1h2
  명령어를 사용하면 머리에 뒤집어씁니다. 블록이 아닌 아이템은 머리 위에 얹히게 됩니다. 일부 아이템은 머리에 얹을 수 없습니다.
 
  #### 창고 정리하기
- &nbsp;&nbsp;아이템으로 꽉 창고를 정리하느라 힘드셨나요? 더 이상 일일히 수작업으로 아이템을 정렬할 필요가 없습니다. 창고를 연 다음, 창고 인벤토리 안의 아무 곳에나 대고 중간 클릭(휠 클릭)하면 자동으로 아이템이 정렬됩니다. 일반 창고뿐만 아니라 여러 가지 창고를 지원합니다!  <br><br>
+ &nbsp;&nbsp;아이템으로 꽉 찬 창고를 정리하느라 힘드셨나요? 더 이상 일일히 수작업으로 아이템을 정렬할 필요가 없습니다. 창고를 연 다음, 창고 인벤토리 안의 아무 곳에나 대고 가운데 클릭(휠 클릭)하면 자동으로 아이템이 정렬됩니다. 일반 창고뿐만 아니라 여러 가지 창고를 지원합니다!  <br><br>
  ![sortgif1](/assets/chestsorting.gif) ![sortgif2](/assets/chestsorting2.gif)
 
 
@@ -110,15 +106,18 @@ body_classes: title-center title-h1h2
 ![lockgif1](/assets/lockette.gif)
 
 #### 지도
-&nbsp;&nbsp;사이트 우측 상단의 Dynamic Map 탭을 누르면 서버 지도로 접속합니다.
+&nbsp;&nbsp;사이트 우측 상단의 Dynamic Map 탭을 누르면 서버 웹 지도로 접속합니다.
 
 - 월드의 탑 뷰, 쿼터 뷰, 동굴 모습을 볼 수 있으며, 자유자재로 확대/축소가 가능합니다.
 - 마커와 현재 접속한 모든 플레이어의 위치가 표시됩니다.
 - 오버월드, 네더, 엔드를 모두 지원합니다.
 - 하단의 채팅창으로 웹 채팅이 가능합니다. 채팅 내용은 서버에 접속한 플레이어에게 보여집니다.
 
+**아래의 지도에서 기능을 체험해 보세요!**
 
-![scs3](/assets/scs3.png)
+<iframe src="http://luna.mcmoonserver.com:8123/?worldname=world&mapname=surface&zoom=4&x=-43&y=64&z=36" width="100%" height="360px">
+   <p>이 브라우저는 iframe을 지원하지 않습니다.</p>
+</iframe>
 
 #### LoginSecurity
 &nbsp;&nbsp;복돌 런쳐로 다른 사람의 이름을 사칭하는 것을 방지합니다. 게임 접속 시에, 미리 설정해 둔 비밀번호를 입력해야 합니다. 서버에 처음 접속하는 경우에는 회원가입을 해야 합니다. 
